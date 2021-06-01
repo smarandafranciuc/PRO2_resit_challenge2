@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Challenge2</title>
+        <link rel="stylesheet" type="text/css" href="mystyle.css">
+        <link rel="stylesheet" href="https://use.typekit.net/cvy3gjz.css">
+        <script src="main.js"defer></script>
+
+	</head>
+    <body> 
+        <div id="home">
+            <div id="home-interaction">
+<!-- i will add here the interactive elements on the homepage; the planet and the moving comet -->
+                <div id="cometparent">
+                    <img id="comet" src="media/comet.png">
+                </div>
+                <div>
+<!--this is also the theme changer button-->
+                    <a href="body">
+                        <img id="planet" src="media/planet_mars.png" onclick ="switchTheme()">
+                    </a>
+                </div>
+            </div>
+            <div id="home-static">
+                <div id="mesh">
+                    <img src = "media/mesh_mars.png">
+                </div>
+                <div id="logo">
+                    <img src = "media/spacex.png">
+                </div>
+             </div>
+<!-- this will be where i add the time and date that change-->
+             <div class="clock-container">
+                <div id="clock">
+                    <p id="text-clock"></p>
+                    <p id="subtext-clock">MARS TIME</p>
+                </div>
+                <p id="text-date">tuesday, 17 jun 2031</p>
+            </div>
+        </div>
+    </body>
